@@ -4,7 +4,7 @@ defmodule Exsms.MixProject do
   def project do
     [
       app: :exsms,
-      version: "0.1.0",
+      version: "0.1.1",
       elixir: "~> 1.6",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
@@ -38,7 +38,7 @@ defmodule Exsms.MixProject do
   defp package() do
     [
       name: "exsms",
-      files: ["lib", "mix.exs", "README*","LICENSE*"],
+      files: ["config", "lib", "mix.exs", "README*", "LICENSE*"],
       maintainers: ["Anwesh Reddy","Mahesh Reddy", "Malreddy Ankanna"],
       licenses: ["GNU Lesser General Public License v3.0"],
       links: %{"GitHub" => "https://gitlab.com/ahamtech/elixir/exsms"}
